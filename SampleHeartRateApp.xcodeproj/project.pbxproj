@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378301961ECDEEC3000C1455 /* PulseDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 885626431AAC700800889191 /* PulseDetector.mm */; };
+		378301981ECDF837000C1455 /* snap.png in Resources */ = {isa = PBXBuildFile; fileRef = 378301971ECDF837000C1455 /* snap.png */; };
 		8856261D1AAC6E6100889191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856261C1AAC6E6100889191 /* main.m */; };
 		885626201AAC6E6100889191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856261F1AAC6E6100889191 /* AppDelegate.m */; };
 		885626231AAC6E6100889191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885626221AAC6E6100889191 /* ViewController.m */; };
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		378301971ECDF837000C1455 /* snap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snap.png; sourceTree = "<group>"; };
 		885626171AAC6E6100889191 /* SampleHeartRateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleHeartRateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8856261B1AAC6E6100889191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8856261C1AAC6E6100889191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 				885626211AAC6E6100889191 /* ViewController.h */,
 				885626221AAC6E6100889191 /* ViewController.m */,
 				885626241AAC6E6100889191 /* Main.storyboard */,
+				378301971ECDF837000C1455 /* snap.png */,
 				885626271AAC6E6100889191 /* Images.xcassets */,
 				885626291AAC6E6100889191 /* LaunchScreen.xib */,
 				8856261A1AAC6E6100889191 /* Supporting Files */,
@@ -178,6 +182,7 @@
 				TargetAttributes = {
 					885626161AAC6E6100889191 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = ZUGS2XHW7U;
 					};
 					8856262F1AAC6E6100889191 = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,6 +217,7 @@
 				885626261AAC6E6100889191 /* Main.storyboard in Resources */,
 				8856262B1AAC6E6100889191 /* LaunchScreen.xib in Resources */,
 				885626281AAC6E6100889191 /* Images.xcassets in Resources */,
+				378301981ECDF837000C1455 /* snap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				885626371AAC6E6100889191 /* SampleHeartRateAppTests.m in Sources */,
+				378301961ECDEEC3000C1455 /* PulseDetector.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,9 +362,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZUGS2XHW7U;
 				INFOPLIST_FILE = SampleHeartRateApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osahumen-aghasomwan.SampleHeartRateApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -366,9 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZUGS2XHW7U;
 				INFOPLIST_FILE = SampleHeartRateApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osahumen-aghasomwan.SampleHeartRateApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -426,6 +437,7 @@
 				8856263C1AAC6E6100889191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8856263D1AAC6E6100889191 /* Build configuration list for PBXNativeTarget "SampleHeartRateAppTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +446,7 @@
 				8856263F1AAC6E6100889191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
